@@ -1,5 +1,10 @@
 // Assignment code here
+var passwordLength = window.prompt("How many characters would you like your password to contain?")
 
+function passwordLength() {
+  
+}
+var charTypeSelector = window.prompt("")
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -15,3 +20,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+  window.prompt(onClick)

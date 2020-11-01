@@ -9,19 +9,12 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
     arrayFromLowToHigh(91, 96)
   ).concat(arrayFromLowToHigh(123, 126)
   )
-  console.log(SYMBOL_CHAR_CODES)
+  //console.log(SYMBOL_CHAR_CODES)
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input along with other fxns
-funtion arrayFromLowToHigh(low, high) {
-  const array =[]
-  for (let i = low; i <= high; i++) {
-    array.push(i)
-  }
-  return array
-}
-
 function generatePassword( len ) {
   var length = (len)?(len):(10);
   var string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
